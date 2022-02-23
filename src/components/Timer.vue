@@ -37,7 +37,7 @@ export default {
     },
     start(){
       this.startTime = Date.now()
-//timerStateをtrueにする。
+//timerStateをtrueにする
       this.timerState = true
       var self = this
       this.timerObj = setInterval(function(){
@@ -46,7 +46,7 @@ export default {
     },   
     stop(){
       clearInterval( this.timerObj )
-//timerStateをfalseにする。
+//timerStateをfalseにする
       this.timerState = false
       this.startTime = 0
     },
