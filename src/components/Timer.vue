@@ -101,7 +101,7 @@ button {
 }
 
 /*
-スタートボタンを無効化する。
+スタートボタンを無効化する
 */
 .disable {
     pointer-events: none;
