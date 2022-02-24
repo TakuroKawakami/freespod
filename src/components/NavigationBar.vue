@@ -1,10 +1,10 @@
 <template>
-  <!-- ナビゲーションバーをダークテーマで作成 -->
+  <!-- ナビゲーションバー -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <!-- タイトル -->
     <a class="navbar-brand" href="/main">FreesPod</a>
 
-    <!-- 画面サイズに応じて折りたたむ設定  -->
+    <!-- 画面サイズに応じて折りたたむ  -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
