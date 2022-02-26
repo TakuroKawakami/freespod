@@ -115,7 +115,7 @@ export default {
       }
       updateSelectStatus(targetNote, this.noteList);
       
-      // 選択中ノート情報を更新
+      // 選択中ノート情報を更新する
       this.selectedNote = targetNote;
     },
     onEditNoteStart : function(editNote, parentNote) {
