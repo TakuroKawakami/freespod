@@ -122,7 +122,7 @@ export default {
       const targetList = parentNote == null ? this.noteList : parentNote.children;
       for (let note of targetList) {
         note.editing = (note.id === editNote.id);
-        this.onEditNoteStart(editNote, note); // 子ノートを基準として再帰的に呼び出し
+        this.onEditNoteStart(editNote, note); // 子ノートを基準として再帰的に呼び出す
       }
     },
     onEditNoteEnd : function(parentNote) {
