@@ -13,12 +13,12 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav">
 
-        <!-- ToDo Memo へのリンク -->
+        <!-- ToDo Memoへのリンク -->
         <li class="nav-item">
           <a class="nav-link" href="/main"><i class="fas fa-clipboard-list"></i> ToDoメモ</a>
         </li>
 
-        <!-- ストップウォッチ へのリンク -->
+        <!-- ストップウォッチへのリンク -->
         <li class="nav-item">
           <a class="nav-link" href="/timer"><i class="fas fa-stopwatch"></i> ストップウォッチ</a>
         </li>
