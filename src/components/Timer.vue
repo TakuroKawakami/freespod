@@ -27,7 +27,7 @@ export default {
       startTime: 0 ,
       pastTime: 0 ,
       timerObj: null,
-//timerStateを追加
+//timerStateを追加する
       timerState: false
     };
   },
