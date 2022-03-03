@@ -106,7 +106,7 @@ export default {
       targetList.splice(index, 1);
     },
     onSelectNote : function(targetNote) {
-      // 再帰的にノートの選択状態を更新
+      // 再帰的にノートの選択状態を更新する
       const updateSelectStatus = function(targetNote, noteList) {
         for (let note of noteList) {
           note.selected = (note.id === targetNote.id);
