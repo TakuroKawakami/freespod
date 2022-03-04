@@ -129,7 +129,7 @@ export default {
       const targetList = parentNote == null ? this.noteList : parentNote.children;
       for (let note of targetList) {
         note.editing = false;
-        this.onEditNoteEnd(note); // 子ノートを基準として再帰的に呼び出し
+        this.onEditNoteEnd(note); // 子ノートを基準として再帰的に呼び出す
       }
     },
     onAddChildNote : function(note) {
