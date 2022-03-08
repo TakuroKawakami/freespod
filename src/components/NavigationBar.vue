@@ -18,7 +18,7 @@
           <a class="nav-link" href="/main"><i class="fas fa-clipboard-list"></i> ToDoメモ</a>
         </li>
 
-        <!-- ストップウォッチへのリンク --> 
+        <!-- ストップウォッチへのリンク -->  
         <li class="nav-item">
           <a class="nav-link" href="/timer"><i class="fas fa-stopwatch"></i> ストップウォッチ</a>
         </li>
