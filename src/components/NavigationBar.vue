@@ -13,7 +13,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav">
 
-        <!-- ToDoMemoへのリンク -->  
+        <!-- ToDoMemoへのリンク -->   
         <li class="nav-item">
           <a class="nav-link" href="/main"><i class="fas fa-clipboard-list"></i> ToDoメモ</a>
         </li>
