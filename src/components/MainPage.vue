@@ -7,7 +7,7 @@
         <i class="fas fa-save"></i> 内容を保存
       </button>
 
-      <!-- ノートリスト -->           
+      <!-- ノートリスト -->            
       <draggable v-bind:list="noteList" group="notes">
       <NoteItem
         v-for="note in noteList"
